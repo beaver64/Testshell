@@ -1,0 +1,91 @@
+571  sudo apt-get install -y curl
+572  sudo apt-get install -y unzip
+573  cd ..
+574  mkdir quetes
+575  mkdir -p quetes/shell/legumes quetes/shell/fruits
+576  mkdir -p quetes/shell/effacez-moi quetes/shell/delete-me
+577  ls quetes/shell/
+578  rmdir quetes/shell/effacez-moi/ quetes/shell/delete-me/
+579  cd ~/quetes/shell
+580  touch pomme poire carotte chou-rave chou-fleur courgette
+581  ls
+582  ls -l
+583  ls -a
+584  ls -l  ~/.bashrc
+585  touch ~/.bashrc
+586  ls -l  ~/.bashrc
+587  cp pomme banane fruits/orange
+588  cp pomme
+589  cp pomme banane 
+590  cp pomme fruits/orange
+591  ls
+592  ls fruits
+593  cp po* banane fruits/
+594  ls ; ls fruits
+595  ls
+596  cp -R fruits copie-de-fruits /tmp
+597  cp -R fruits copie-de-fruits /tmp/
+598  cp -R fruits copie-de-fruits
+599  cp -R fruits copie-de-fruits /tmp/
+600  ls
+601  rm po* banane
+602  rm - r copie-de-fruits/
+603  rm -r copie-de-fruits/
+604  mv carotte chou* courgette legumes/
+605  mv fruits/orange fruits/pamplemousse
+606  mvlegumes/courgette fruits/kiwi
+607  mv legumes/courgette fruits/kiwi
+608  cd ..
+609  cd shell/
+610  curl -L -o planets.zip https://github.com/WildCodeSchool/quests-resources/blob/master/terminal/planets.zip?raw=true
+611  unzip planets.zip
+612  ls
+613  cd planets/
+614  ls
+615  mkdir real fictional inhabited
+616  ls
+617  cd real/
+618  mkdir telluric gas-giants dwarf-planets
+619  cd ..
+620  cp earth* mercury* saturn* mars* uranus* venus* neptune* jupiter* real/
+621  rm -r pluto.jpeg 
+622  mv mercury.jpeg saturn.jpeg mars.jpeg  uranus.jpeg earth.jpeg cybertron.jpeg coruscant.jpeg arrakis.jpeg fictional/
+623  cd fictional/
+624  ls
+625  rm -r mars.jpeg saturn.jpeg mercury.jpeg uranus.jpeg 
+626  ls
+627  cd ..
+628  rm -r fictional/earth.jpeg 
+629  cd real/
+630  ls
+631  cp earth.jpeg ../fictional/
+632  cd ..
+633  cd fictional/
+634  mv earth.jpeg ../inhabited/
+635  cp arrakis.jpeg coruscant.jpeg cybertron.jpeg  ../inhabited/
+636  cd ..
+637  ls
+638  rm -r jupiter.jpeg 
+639  rm -r neptune.jpeg venus.jpeg 
+640  ls
+641  cd fictional/
+642  ls
+643  cd ..
+644  ls inhabited/
+645  ls real/
+646  cd real/
+647  ls
+648  mv earth.jpeg mars.jpeg mercury.jpeg telluric/
+649  rm -r dwarf-planets/
+650  ls
+651  mv neptune.jpeg jupiter.jpeg uranus.jpeg gas-giants/
+652  lds
+653  ls
+654  mv saturn.jpeg gas-giants/
+655  mv venus.jpeg telluric/
+656  ls
+657  cd ..
+658  tree planets
+659  sudo apt install tree
+660  tree
+661  history
