@@ -1,0 +1,41 @@
+beaver@Beaver64:~$ ls
+Bureau       Images     PhpStorm          snap             Vidéos
+Documents    Modèles    PhpstormProjects  Téléchargements  wild-project
+Downloads    Musique    Public            Test
+hello-world  patchwork  sharezza-social   Testshell
+beaver@Beaver64:~$ ls Téléchargements/
+ discord-0.0.10.deb      'PhpStorm-2020.1.1 (1).tar.gz'
+ Git-it-Linux-x64         sharezza-social-master
+ Git-it-Linux-x64.zip     sharezza-social-master.zip
+'PhpStorm-2020.1.1 (1)'
+beaver@Beaver64:~$ ls Images/
+beaver@Beaver64:~$ pwd
+/home/beaver
+beaver@Beaver64:~$ cd Images/
+beaver@Beaver64:~/Images$ pwd
+/home/beaver/Images
+beaver@Beaver64:~/Images$ cd ..
+beaver@Beaver64:~$ pwd
+/home/beaver
+beaver@Beaver64:~$ cd ..
+beaver@Beaver64:/home$ pwd
+/home
+beaver@Beaver64:/home$ cd ..
+beaver@Beaver64:/$ pwd
+/
+beaver@Beaver64:/$ ls
+bin    dev   lib    libx32      mnt   root  snap      sys  var
+boot   etc   lib32  lost+found  opt   run   srv       tmp
+cdrom  home  lib64  media       proc  sbin  swapfile  usr
+beaver@Beaver64:/$ cd home/wilder
+bash: cd: home/wilder: Aucun fichier ou dossier de ce type
+beaver@Beaver64:/$ cd home/beaver
+beaver@Beaver64:~$ pwd
+/home/beaver
+beaver@Beaver64:~$ cd Images/
+beaver@Beaver64:~/Images$ cd
+beaver@Beaver64:~$ cd Images/
+beaver@Beaver64:~/Images$ cd ~/Musique/
+beaver@Beaver64:~/Musique$ pwd
+/home/beaver/Musique
+beaver@Beaver64:~/Musique$
